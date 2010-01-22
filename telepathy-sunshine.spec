@@ -16,6 +16,7 @@ BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq	python
 Requires:	python-TwistedCore
 Requires:	python-TwistedWeb
+Requires:	python-telepathy >= 0.15.11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
