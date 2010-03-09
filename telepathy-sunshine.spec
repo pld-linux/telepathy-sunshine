@@ -17,6 +17,7 @@ BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	python-TwistedCore
 Requires:	python-TwistedWeb
 Requires:	python-dbus
+Requires:	python-oauth
 Requires:	python-pygobject
 Requires:	python-telepathy >= 0.15.11
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
