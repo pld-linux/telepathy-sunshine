@@ -15,7 +15,7 @@ BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 %pyrequires_eq	python
 Requires:	python-TwistedCore
-Requires:	python-TwistedWeb
+Requires:	python-TwistedWeb >= 9.0.0
 Requires:	python-dbus
 Requires:	python-oauth
 Requires:	python-pygobject
