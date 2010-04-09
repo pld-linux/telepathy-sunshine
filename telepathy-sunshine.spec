@@ -1,12 +1,12 @@
 Summary:	Gadu-Gadu connection manager for the Telepathy
 Summary(pl.UTF-8):	Zarządca połączeń Gadu-Gadu dla Telepathy
 Name:		telepathy-sunshine
-Version:	0.1.6
+Version:	0.1.7
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://telepathy.freedesktop.org/releases/telepathy-sunshine/%{name}-%{version}.tar.gz
-# Source0-md5:	23b6c0cc76e4bb28fd58af0627ba78c5
+# Source0-md5:	03cd26ff5d5db7d7380543622723a53e
 URL:		http://telepathy.freedesktop.org/wiki/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.8
@@ -19,7 +19,7 @@ Requires:	python-TwistedWeb >= 9.0.0
 Requires:	python-dbus
 Requires:	python-oauth
 Requires:	python-pygobject
-Requires:	python-telepathy >= 0.15.11
+Requires:	python-telepathy >= 0.15.17
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
