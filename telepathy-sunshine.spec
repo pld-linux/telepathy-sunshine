@@ -1,12 +1,12 @@
 Summary:	Gadu-Gadu connection manager for the Telepathy
 Summary(pl.UTF-8):	Zarządca połączeń Gadu-Gadu dla Telepathy
 Name:		telepathy-sunshine
-Version:	0.1.7
+Version:	0.1.8
 Release:	1
 License:	LGPL
 Group:		Libraries
 Source0:	http://telepathy.freedesktop.org/releases/telepathy-sunshine/%{name}-%{version}.tar.gz
-# Source0-md5:	03cd26ff5d5db7d7380543622723a53e
+# Source0-md5:	b6ae05a19c237604e284d2ed3ff20aae
 URL:		http://telepathy.freedesktop.org/wiki/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.8
