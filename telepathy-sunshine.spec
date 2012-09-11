@@ -3,7 +3,7 @@ Summary(pl.UTF-8):	Zarządca połączeń Gadu-Gadu dla Telepathy
 Name:		telepathy-sunshine
 Version:	0.2.0
 Release:	1
-License:	LGPL
+License:	GPL v2+
 Group:		Libraries
 Source0:	http://telepathy.freedesktop.org/releases/telepathy-sunshine/%{name}-%{version}.tar.gz
 # Source0-md5:	2615bb78170c4310029a2ea3cef71816
